@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.mother {
+  border : 2px dotted blue; 
+  height : 160px;
+  position : relative;
+}
+
+.child {
+  border : 2px dotted green;
+  height : 50%;
+  width : 50%;
+  position : absolute;
+  left : 0px;
+  bottom : 0px;
+}  
+
+.grandchild {
+  border : 2px dotted orange;
+  right : 0px;
+  position : absolute;
+  bottom : 0px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="mother">test
+   <div class="child">child
+      <div class="grandchild">
+         grandchild
+      </div>
+   </div>
+</div>
+</body>
+</html>
